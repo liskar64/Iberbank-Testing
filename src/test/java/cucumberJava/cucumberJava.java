@@ -1,29 +1,22 @@
-package cucumberJava;
-
-/**
+package cucumberJava; /**
  * Created by Ibermatica on 05/05/2017.
  */
-import java.awt.event.KeyEvent;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.util.concurrent.TimeUnit;
 
+import cucumber.annotation.en.Given;
+import cucumber.annotation.en.Then;
+import cucumber.annotation.en.When;
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.service.local.AppiumDriverLocalService;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.remote.RemoteWebDriver;
 
-import java.awt.AWTException;
-import java.awt.Robot;
-
-import cucumber.annotation.en.Given;
-import cucumber.annotation.en.Then;
-import cucumber.annotation.en.When;
-
-import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.service.local.AppiumDriverLocalService;
+import java.awt.*;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.concurrent.TimeUnit;
 
 public class cucumberJava {
 

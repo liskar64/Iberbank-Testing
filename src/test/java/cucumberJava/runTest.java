@@ -1,12 +1,9 @@
-package cucumberJava;
-
-/**
+package cucumberJava; /**
  * Created by Ibermatica on 05/05/2017.
  */
 
-import org.junit.runner.RunWith;
 import cucumber.junit.Cucumber;
-
+import org.junit.runner.RunWith;
 
 
 @RunWith(Cucumber.class)
