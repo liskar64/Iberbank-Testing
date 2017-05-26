@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45894555-f785-49a5-bfaa-b657bed7cacc" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/cucumberJava/cucumberJava.feature" afterPath="$PROJECT_DIR$/src/test/resources/cucumberJava/cucumberJava.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Iberbank.iml" afterPath="$PROJECT_DIR$/Iberbank.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/cucumberJava/cucumberJava.java" afterPath="$PROJECT_DIR$/src/test/java/cucumberJava/cucumberJava.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/cucumberJava/runTest.java" afterPath="$PROJECT_DIR$/src/test/java/cucumberJava/runTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -766,6 +762,14 @@
       <option name="presentableId" value="Default" />
       <updated>1493972071136</updated>
     </task>
+    <task id="LOCAL-00001" summary="Cambio features de carpeta">
+      <created>1495796006805</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1495796006805</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -836,6 +840,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Cambio features de carpeta" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambio features de carpeta" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
