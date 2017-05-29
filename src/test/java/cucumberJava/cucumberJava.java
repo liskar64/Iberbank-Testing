@@ -117,7 +117,7 @@ public class cucumberJava {
     public void loginshouldbeunsuccessful() {
         //WebElement texto = driver.findElement(By.className("UIAAlert"));
 
-        WebElement texto = driver.findElement(By.id("credencialesx"));
+        WebElement texto = driver.findElement(By.id("credenciales"));
         boolean display = texto.isDisplayed();
 
         //String texto2 = texto.getAttribute("p");
