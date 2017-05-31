@@ -137,6 +137,7 @@ public class cucumberJava {
 
 
         System.out.println("Stop driver");
+        System.out.println("Compruebo que cambio de version en GitHub");
         driver.quit();
         System.out.println("Stop appium service");
         appiumService.stop();
