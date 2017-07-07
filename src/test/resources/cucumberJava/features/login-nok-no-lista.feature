@@ -1,4 +1,4 @@
-# languaage: es
+# language: es
 
   Característica: Login a la aplicacion fallido
   
