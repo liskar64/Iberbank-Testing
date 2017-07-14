@@ -50,7 +50,7 @@ public class cucumberJava {
         capabilities.setCapability("platformName","Android");
         capabilities.setCapability("deviceName","Xperia M2");
         capabilities.setCapability("platformVersion","5.1.1");
-        capabilities.setCapability("browser_Name","Android");
+        //capabilities.setCapability("browser_Name","Android");
         capabilities.setCapability("app","src/apk/android-debug.apk");
         try{
           driver = new AndroidDriver(new URL(appiumServiceUrl), capabilities);
