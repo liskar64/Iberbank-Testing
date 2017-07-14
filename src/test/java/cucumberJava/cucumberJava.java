@@ -53,7 +53,8 @@ public class cucumberJava {
         capabilities.setCapability("browser_Name","Android");
         capabilities.setCapability("app","src/apk/android-debug.apk");
         try{
-            driver = new AndroidDriver(new URL(appiumServiceUrl), capabilities);
+          driver = new AndroidDriver(new URL(appiumServiceUrl), capabilities);
+      //      driver = new AndroidDriver(new URL("http://0.0.0.0:4723/wd/hub"), capabilities);
             driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 
         } catch (MalformedURLException e) {
@@ -108,6 +109,7 @@ public class cucumberJava {
         } catch (InterruptedException e) {
         }
 
+      //  driver.quit();
 
         System.out.println("Stop driver");
         System.out.println("Compruebo que cambio de version en GitHub3");
@@ -127,6 +129,7 @@ public class cucumberJava {
             Thread.sleep(5000);
         } catch (InterruptedException e) {
         }
+        //driver.quit();
 
         System.out.println("Stop driver");
         driver.quit();
