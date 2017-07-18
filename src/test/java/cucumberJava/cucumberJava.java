@@ -128,6 +128,8 @@ public class cucumberJava {
             Thread.sleep(5000);
         } catch (InterruptedException e) {
         }
+
+        driver.findElement(By.id("autentificacion")).click();
     }
 
     @Cuando("pulso el botón de simulacion de transferencia$")
@@ -140,6 +142,10 @@ public class cucumberJava {
         } catch (InterruptedException e) {
         }
 
+        System.out.println("Stop driver");
+        driver.quit();
+        System.out.println("Stop appium service");
+        appiumService.stop();
 
     }
 

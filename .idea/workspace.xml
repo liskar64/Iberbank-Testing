@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="45894555-f785-49a5-bfaa-b657bed7cacc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/cucumberJava/features/2.login-nok-lista.feature" afterPath="$PROJECT_DIR$/src/test/resources/cucumberJava/features/2.login-nok-lista.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/cucumberJava/cucumberJava.java" afterPath="$PROJECT_DIR$/src/test/java/cucumberJava/cucumberJava.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,11 +28,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="cucumberJava.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="cucumberJava.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/cucumberJava/cucumberJava.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1209">
-              <caret line="140" column="9" lean-forward="true" selection-start-line="140" selection-start-column="9" selection-end-line="140" selection-end-column="9" />
+            <state relative-caret-position="145">
+              <caret line="143" column="0" lean-forward="false" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="3.transferencia.feature" pinned="false" current-in-tab="true">
+      <file leaf-file-name="3.transferencia.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/cucumberJava/features/3.transferencia.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="208">
+              <caret line="13" column="61" lean-forward="true" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -119,9 +119,9 @@
         <option value="$PROJECT_DIR$/src/test/resources/cucumberJava/features/login-nok-no-lista.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/cucumberJava/features/login-nok-lista.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/cucumberJava/features/1.login-ok.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/cucumberJava/cucumberJava.java" />
         <option value="$PROJECT_DIR$/src/test/resources/cucumberJava/features/2.login-nok-lista.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/cucumberJava/features/3.transferencia.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/cucumberJava/cucumberJava.java" />
       </list>
     </option>
   </component>
@@ -964,7 +964,14 @@
       <option name="project" value="LOCAL" />
       <updated>1500364782698</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Versión con features en castellano">
+      <created>1500365315067</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1500365315067</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1280,16 +1287,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cucumberJava/cucumberJava.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1209">
-          <caret line="140" column="9" lean-forward="true" selection-start-line="140" selection-start-column="9" selection-end-line="140" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/cucumberJava/features/2.login-nok-lista.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -1300,9 +1297,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/cucumberJava/features/3.transferencia.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="208">
+          <caret line="13" column="61" lean-forward="true" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cucumberJava/cucumberJava.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="143" column="0" lean-forward="false" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
