@@ -129,9 +129,10 @@ public class cucumberJava {
         } catch (InterruptedException e) {
         }
 
+
     }
 
-    @Cuando("pulso el botón de simulacion de transferencia$")
+    @Cuando("pulso el boton de simulacion de transferencia$")
     public void simulacion_transferencia() {
 
         driver.findElement(By.id("num_cuenta")).click();
@@ -145,8 +146,7 @@ public class cucumberJava {
         driver.quit();
         System.out.println("Stop appium service");
         appiumService.stop();
-
-    }
+   }
 
 
     public boolean isElementPresent(By by){

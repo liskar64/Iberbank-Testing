@@ -11,9 +11,9 @@ Característica: Autentificacion en la aplicacion para simular transferencia
 
 	     Cuando navego hasta la pantalla de simulacion de transferencia
 
-		 Cuando pulso el botón de simulacion de transferencia
+		 Cuando pulso el boton de simulacion de transferencia
 
-		 Entonces se abre la pantalla de simulación de transferencia
+		 Entonces se abre la pantalla de simulacion de transferencia
 
 		 Ejemplos:
 			 |login|pass|
