@@ -66,9 +66,6 @@ public class cucumberJava {
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
     };
 
-
-
-
     @Cuando("^introduzco el Usuario \"([^\"]*)\" y la Contrasena \"([^\"]*)\"$")
     public void I_enter_Usuario_as_and_Contrasena_as(String arg1, String arg2) throws AWTException {
 
@@ -122,7 +119,29 @@ public class cucumberJava {
 
     }
 
+    @Cuando("navego hasta la pantalla de simulacion de transferencia$")
+    public void pantalla_simulacion() {
 
+        driver.findElement(By.id("autentificacion")).click();
+
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+        }
+    }
+
+    @Cuando("pulso el botón de simulacion de transferencia$")
+    public void simulacion_transferencia() {
+
+        driver.findElement(By.id("num_cuenta")).click();
+
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+        }
+
+
+    }
 
 
     public boolean isElementPresent(By by){
