@@ -81,7 +81,7 @@ public class cucumberJava {
     }
 
 
-    @Entonces("sale mensaje de error y no podemos entrar$")
+    @Entonces("saldra mensaje de error y no podremos entrar$")
     public void loginshouldbeunsuccessful() {
 
         WebElement texto = driver.findElement(By.id("credenciales"));

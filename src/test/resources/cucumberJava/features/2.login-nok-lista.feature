@@ -9,14 +9,14 @@
 
     	Cuando introduzco el Usuario <login> y la Contrasena <pass>
 
-    	Entonces sale mensaje de error y no podemos entrar
+    	Entonces saldra mensaje de error y no podremos entrar
 
      Ejemplos:
-		|login  |pass   |
+		|login|pass|
 		|"tryte"|"tryte"|
-		|"tryte"|""     |
-		|""     |"tryte"|
-		|""     |""     |
+		|"tryte"|""|
+		|""|"tryte"|
+		|""|""|
 
 
 
