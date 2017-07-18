@@ -142,11 +142,25 @@ public class cucumberJava {
         } catch (InterruptedException e) {
         }
 
+
+   }
+    @Entonces("se abre la pantalla de simulacion de transferencia$")
+    public void pantalla_transferencia() {
+
+        Assert.assertFalse(isElementPresent(By.id("credenciales")));
+
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+        }
+        //driver.quit();
+
         System.out.println("Stop driver");
         driver.quit();
         System.out.println("Stop appium service");
         appiumService.stop();
-   }
+
+    }
 
 
     public boolean isElementPresent(By by){
