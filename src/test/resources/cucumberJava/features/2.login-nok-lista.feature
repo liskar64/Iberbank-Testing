@@ -5,14 +5,13 @@
 
     Esquema del escenario:Login fallido rellenando usuario y contraseñas incorrectas
 
-     	Dado que me conecto a la aplicacion
+     	Dado que me conecte a la aplicacion
 
-    	Cuando introduzco el Usuario <login> y la Contraseña <pass>
+    	Cuando introduzco el Usuario <login> y la Contrasena <pass>
 
     	Entonces sale mensaje de error y no podemos entrar
 
      Ejemplos:
-
 		|login  |pass   |
 		|"tryte"|"tryte"|
 		|"tryte"|""     |

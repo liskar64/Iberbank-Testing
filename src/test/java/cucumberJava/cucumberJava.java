@@ -36,7 +36,7 @@ public class cucumberJava {
     String appiumServiceUrl;
 
 
-    @Dado("que me conecto a la aplicacion$")
+    @Dado("que me conecte a la aplicacion$")
 
     public void openDevices(){
 
@@ -52,12 +52,11 @@ public class cucumberJava {
         capabilities.setCapability("platformVersion","5.1.1");
         capabilities.setCapability("browser_Name","Android");
         capabilities.setCapability("app","src/apk/android-debug.apk");
-        capabilities.setCapability("session-override","true");
+        //capabilities.setCapability("session-override","true");
 
         try{
           driver = new AndroidDriver(new URL(appiumServiceUrl), capabilities);
-      //      driver = new AndroidDriver(new URL("http://0.0.0.0:4723/wd/hub"), capabilities);
-            driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+          driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 
         } catch (MalformedURLException e) {
             // TODO Auto-generated catch block
@@ -70,7 +69,7 @@ public class cucumberJava {
 
 
 
-    @Cuando("^introduzco el Usuario \"([^\"]*)\" y la Contraseña \"([^\"]*)\"$")
+    @Cuando("^introduzco el Usuario \"([^\"]*)\" y la Contrasena \"([^\"]*)\"$")
     public void I_enter_Usuario_as_and_Contrasena_as(String arg1, String arg2) throws AWTException {
 
         driver.findElement(By.id("usuario")).sendKeys(arg1);
@@ -81,23 +80,6 @@ public class cucumberJava {
 
     }
 
-
-    @Y("^tecleo el Usuario \"([^\"]*)\" y la Contraseña \"([^\"]*)\"$")
-
-    public void login_correcto(String arg1, String arg2) throws AWTException {
-
-        driver.findElement(By.id("usuario")).sendKeys(arg1);
-
-        driver.findElement(By.id("contrasena")).sendKeys(arg2);
-
-        driver.findElement(By.id("boton1")).click();
-
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-        }
-
-    }
 
     @Entonces("sale mensaje de error y no podemos entrar$")
     public void loginshouldbeunsuccessful() {
@@ -122,7 +104,7 @@ public class cucumberJava {
 
     }
 
-    @Entonces("entramos en la aplicacion$")
+    @Entonces("entraremos en la aplicacion$")
     public void loginshouldbesuccessful() {
 
         Assert.assertFalse(isElementPresent(By.id("credenciales")));
