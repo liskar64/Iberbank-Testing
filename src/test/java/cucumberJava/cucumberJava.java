@@ -129,7 +129,6 @@ public class cucumberJava {
         } catch (InterruptedException e) {
         }
 
-        driver.findElement(By.id("autentificacion")).click();
     }
 
     @Cuando("pulso el botón de simulacion de transferencia$")
