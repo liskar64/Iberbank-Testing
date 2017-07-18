@@ -3,7 +3,7 @@
   Característica: Login a la aplicacion bancaria fallido
   
     Antecedentes:
-    dado que me conecte a la aplicacion
+    Dado que me conecte a la aplicacion
 
     Esquema del escenario:Login fallido rellenando usuario y contraseñas incorrectas
 
